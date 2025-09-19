@@ -42,3 +42,6 @@ Perfect for learning loops, string handling, time modules.
 - applications
 - AI copilot
 - soo much commands
+## 📜 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
