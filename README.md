@@ -1,6 +1,44 @@
-# Fake OS
-A fake OS by a fake developer
-## About
-A python project that works like a mini Operating System, still in progress
-## Versions
-Still done nothing
+# KOS 🖥️
+
+A tiny Python-based toy operating system made for fun and learning!  
+Type commands in a shell-like interface and interact with features like **time, date, echo, uptime!** ✨
+
+
+## 🚀 Features (till now)
+- `help` → list all available commands  
+- `echo <text>` → repeat text back  
+- `time` → show current system time  
+- `date` → show today’s date  
+- `info` → show OS name, version, and author  
+- `clear` → clear the terminal screen  
+- `uptime` → show how long the OS has been running
+
+## 📦 Installation
+1. Clone or download this repository.  
+2. Make sure Python 3.8+ is installed.
+
+## ▶️ Usage examples
+Run the OS in your terminal:
+
+- KOS> help
+- KOS> echo Hello World!
+- KOS> time
+- KOS> uptime
+
+## 🛠️ Roadmap (Milestones)
+- v0.1 — The Egg 🥚: Boot, `help`, `exit`, `echo` ✅
+- v0.2 — The Chick 🐣: `time`, `date`, `info`, `uptime` ✅
+- v0.3 — The Teen 🐥: `calc`, `clear`, `uptime` formatting ⏳ (`calc` in progress)
+
+## ⚠️ Disclaimer
+This is **not** a real operating system, but a fun project to simulate one inside Python!
+Perfect for learning loops, string handling, time modules.
+
+## 🌌 Future ideas
+- login with password and username
+- sign out
+- folder and file system
+- games
+- applications
+- AI copilot
+- soo much commands
