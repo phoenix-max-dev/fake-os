@@ -20,10 +20,10 @@ Type commands in a shell-like interface and interact with features like **time, 
 ## ▶️ Usage examples
 Run the OS in your terminal:
 
-- KOS> help
-- KOS> echo Hello World!
-- KOS> time
-- KOS> uptime
+KOS> help  
+KOS> echo Hello World!  
+KOS> time  
+KOS> uptime  
 
 ## 🛠️ Roadmap (Milestones)
 - v0.1 : Boot, `help`, `exit`, `echo` ✅
