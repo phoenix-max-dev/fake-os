@@ -20,7 +20,10 @@ while True:
     elif command == "info":
         print("kOS, version 0.2, author: Khattab")
     elif command == "clear":
-        print("\n" * 100)
+        if os.name == "nt":
+            os.system("cls")
+        else:
+            os.system("clear")
     elif command == "uptime":
         seconds = int(time.time() - boot_time)
         hours, remainder = divmod(seconds, 3600)
