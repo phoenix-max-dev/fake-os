@@ -15,7 +15,7 @@ Type commands in a shell-like interface and interact with features like **time, 
 
 ## 📦 Installation
 1. Clone or download this repository.  
-2. Make sure Python 3.8+ is installed.
+2. Make sure Python is installed.
 
 ## ▶️ Usage examples
 Run the OS in your terminal:
