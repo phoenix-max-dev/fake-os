@@ -10,7 +10,7 @@ print("Enter 'help' for options")
 while True:
     command = input("KOS> ")
     if command == "help":
-        print("Available commands: help, shutdown, echo (text), time, date, info, clear, uptime, calc (equation)")
+        print("Available commands: help, shutdown, echo (text), time, date, info, clear, uptime")
     elif command.startswith("echo "):
         print(command[5:])
     elif command == "time":
@@ -18,7 +18,7 @@ while True:
     elif command == "date":
         print(time.strftime("%A, %B %d %Y"))
     elif command == "info":
-        print("KnowledgeOS, version 0.2, author: Khattab")
+        print("kOS, version 0.2, author: Khattab")
     elif command == "clear":
         print("\n" * 100)
     elif command == "uptime":
