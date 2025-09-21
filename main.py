@@ -1,9 +1,22 @@
 import os
 import time
 boot_time = time.time()
+equation_array = []
+def loopequation():
+    scan = True
+    num = ""
+    for x in equation:
+        if x.isdigit():
+            scan = True
+            num += x
+        else:
+            scan = False
+            print(num)
+            num = ""
+
 print("loading..")
-time.sleep(2)
-print("-" * 130)
+time.sleep(1)
+print("-" * 50)
 print("Welcome to KOS (Python Edition)")
 print("Enter 'help' for options")
 
@@ -34,12 +47,13 @@ while True:
             print(f"The OS ran for {minutes}m {seconds}s")
         else:
             print(f"The OS ran for {seconds}s")
-    elif command.startswith("calc"):
-        print("This command is still in progress") #TODO: set up "calc" command
+    elif command.startswith("calc "):
+        equation = command[5:]
+        loopequation()
     elif command == "shutdown":
         print("Shutting down..")
-        time.sleep(2)
-        print("-" * 130)
+        time.sleep(1)
+        print("-" * 50)
         break
     else:
         print("Command unavailble, 'help' for availble options")
