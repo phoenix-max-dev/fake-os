@@ -1,22 +1,32 @@
 import os
 import time
-boot_time = time.time()
-equation_array = []
 def loopequation():
+    equation_array = []
     scan = True
-    num = ""
+    num = "" 
     for x in equation:
         if x.isdigit():
             scan = True
             num += x
         else:
+            if scan:
+                num = int(num)
+                equation_array.append(num)
+                num = ""
             scan = False
-            print(num)
-            num = ""
+    num = int(num)
+    equation_array.append(num)
+    result = 0
+    x = 0
+    for x in equation_array:
+        result += x
+    print(result)
+    
 
 print("loading..")
 time.sleep(1)
 print("-" * 50)
+boot_time = time.time()
 print("Welcome to KOS (Python Edition)")
 print("Enter 'help' for options")
 
@@ -56,4 +66,4 @@ while True:
         print("-" * 50)
         break
     else:
-        print("Command unavailble, 'help' for availble options")
+        print("Command unavailble, `help` for availble options")
