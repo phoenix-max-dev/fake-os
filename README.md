@@ -5,13 +5,13 @@ Type commands in a shell-like interface and interact with features like **time, 
 
 
 ## 🚀 Features (till now)
-- `help` → list all available commands  
-- `echo <text>` → repeat text back  
-- `time` → show current system time  
-- `date` → show today’s date  
-- `info` → show OS name, version, and author  
-- `clear` → clear the terminal screen  
-- `uptime` → show how long the OS has been running
+`help` → list all available commands  
+`echo <text>` → repeat text back  
+`time` → show current system time  
+`date` → show today’s date  
+`info` → show OS name, version, and author  
+`clear` → clear the terminal screen  
+`uptime` → show how long the OS has been running
 
 ## 📦 Installation
 1. Clone or download this repository.  
